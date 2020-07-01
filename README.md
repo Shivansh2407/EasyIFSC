@@ -1,24 +1,9 @@
-## Django-rest-ifsc
+## EasyIFSC
 
-A RESTful API written in Django to get any branch details using ifsc code and find all the branches of a bank in a Indian city.
+A REST API developed to fetch the details of any branch using IFSC Code and also retrieve any Branch details in any city of India.
 
+### Test Link 
+---
 
-### Setting up
-This project was built with python +3.5
-
-```bash
-$ virtualenv -p python3 env
-$ source ./env/bin/activate
-$ pip install -r requirements.txt
-$ cd django-rest-ifsc
-$ python manage.py runserver
-```
-
-Then head to 
-
-http://localhost:8000/api/ifsc/{ifsccode}
-
-http://localhost:8000/api/branches/{city}/{bank-name}
-
-in your browser to get started.
-
+- For Branch Details using IFSC : Ex : 
+- For Branch Details using City and Bank Name : Ex :
