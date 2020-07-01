@@ -13,7 +13,7 @@ class Bank(models.Model):
 class Branch(models.Model):
     name = models.CharField(max_length=256)
     ifsc = models.CharField(max_length=500, unique=True)
-    bank = models.ForeignKey(Bank)
+    bank = models.ForeignKey(Bank, on_delete=models.CASCADE)
     address = models.TextField()
     city = models.CharField(max_length=500)
     district = models.CharField(max_length=500)
