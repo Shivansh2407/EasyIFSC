@@ -1,1 +1,1 @@
-web: gunicorn restifsc.wsgi
+web: gunicorn ifsc.wsgi
