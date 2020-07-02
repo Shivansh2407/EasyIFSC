@@ -27,7 +27,7 @@ SECRET_KEY = '%8u#j9ctfsa+xa15m6!2j-z9^df)*!_7ggghrzgtrs-cx400pf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'http://shivanshdjangotask.herokuapp.com/' ]
 
 
 # Application definition
@@ -119,6 +119,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
