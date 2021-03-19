@@ -10,7 +10,7 @@ django-cors-headers==3.4.0
 django-dotenv==1.4.1
 django-livereload-server==0.3.2
 django-templated-mail==1.1.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djoser==2.0.3
 gunicorn==20.0.4
 idna==2.9
