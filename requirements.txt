@@ -27,7 +27,7 @@ soupsieve==2.0.1
 sqlparse==0.3.1
 stripe==2.46.0
 tornado==6.0.4
-urllib3==1.25.9
+urllib3==1.26.5
 whitenoise==5.0.1
 wincertstore==0.2
 zipp==3.1.0
